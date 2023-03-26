@@ -24,7 +24,6 @@ body {
 nav {
   background-color: #ffffff;
   position: sticky;
-
 }
 .textt {
   text-align: center;
@@ -42,7 +41,8 @@ nav {
   display: flex;
   flex-direction: row;
   gap: 100px;
-  justify-content: flex-start;
+  justify-content: center;
+  
   margin-left: 100px;
   margin-top: 30px;
 }
@@ -54,6 +54,7 @@ nav {
 .list-item > p {
   margin-top: -2px;
 }
+
 .second {
   display: flex;
   flex-direction: column;
@@ -93,25 +94,24 @@ nav {
   font-weight: 400;
   border-radius: 20px;
   font-size: 18px;
-
 }
-.listt>ul{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    line-height: 30px;
+.listt > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  line-height: 30px;
 }
 .para {
   text-align: center;
   line-height: 40px;
   font-size: 30px;
 }
-.btn{
-    background-color: #0096FF;
-    padding: 20px;
-    color: #ffffff;
-    font-weight: 700;
-    border-radius: 30px;
-    text-decoration: none;
-    font-size: 18px;
+.btn {
+  background-color: #0096ff;
+  padding: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 18px;
 }
