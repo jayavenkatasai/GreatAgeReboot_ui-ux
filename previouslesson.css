@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient( #1757A5,rgba(100, 100, 100, 0.5)),
+    url("lotus.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  gap: 200px;
+}
+.ul-list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin-top: 25px;
+  margin-right: 200px;
+  font-size: x-large;
+}
+.logo {
+  margin-left: 70px;
+  margin-top: 10px;
+}
+nav {
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.bdy{
+    height: 100vh;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.items>p{
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.searchh{
+    margin-top: 40px;
+}
+.bar{
+    width:300px;
+    height: 35px;
+    border-radius: 20px;
+}
+.item-add{
+    display: flex;
+    gap:40px;
+    flex-wrap: wrap;
+}

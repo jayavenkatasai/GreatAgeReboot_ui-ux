@@ -1,0 +1,151 @@
+body {
+  background-color: #f5f7fb;
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  gap: 200px;
+}
+.ul-list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin-top: 25px;
+  margin-right: 200px;
+  font-size: x-large;
+}
+.logo {
+  margin-left: 70px;
+  margin-top: 10px;
+}
+nav {
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.main-1 {
+  background-color: #000000;
+  width: 70%;
+  background-image: url("gar-dashboard-bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+
+  height: 700px;
+}
+.main-2 {
+  background-color: rgb(136, 122, 104);
+  width: 30%;
+  background-image: linear-gradient(#0679e6, #0096ff);
+}
+.cont-11 {
+  text-align: center;
+  color: #1f0382;
+  margin-top: 20px;
+}
+.cont-12 {
+  padding-bottom: 20px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.progress-barr {
+  width: 90%;
+  box-shadow: rgb(70, 57, 57);
+  margin-left: 20px;
+}
+.progress-bar {
+  color: #ffffff;
+}
+.div1 {
+  display: flex;
+}
+.div2 {
+  display: flex;
+}
+.first-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+}
+.div1 > p {
+  flex-grow: 1;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.div2 > p {
+  flex-grow: 1;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.div1 > a {
+  margin-top: 15px;
+}
+.div2 > a {
+  margin-top: 15px;
+}
+.a1 {
+  margin-right: 5px;
+}
+.second-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+}
+.div21 {
+  display: flex;
+}
+.div21 > p {
+  flex-grow: 1;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.div21 > a {
+  margin-top: 15px;
+}
+.third-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+}
+li {
+  list-style: none;
+}
+.div31 {
+  display: flex;
+}
+.div31 > p {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.sub-head {
+  color: #ffffff;
+  font-size: x-large;
+  margin-left: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
